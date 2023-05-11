@@ -1,0 +1,261 @@
+@media only screen and (max-width: 1200px){
+  .section{
+    height: 765px;
+  }
+  .container1{
+    width: 1200px;
+    margin: 20px auto;
+  }
+  .development_process_section .process_inner .process_image{
+    width: 115px;
+  }
+  .development_process_section .process_inner .arrow {
+    right: -60px;
+}
+.first-half{
+  width: 0;
+}
+.second-half{
+  width: 100%;
+}
+/*.contact-form {
+  margin: 30px 10px;
+  padding: 15px 250px;
+}  */
+.formfield input, textarea, select, option {
+  width: 650px;
+}
+}
+
+
+
+  @media only screen and (max-width: 1130px){
+    .card{
+      margin: 14px 0px;
+    }
+    .card-reason{
+      margin: 14px 0px;
+    }
+  }
+  /*.d-card{
+    margin: 7px 0px;
+    padding: 5px 0px;
+    flex: 1 1 15rem;
+  }
+  .arrow{
+    margin-left: 0px;
+  }*/
+
+@media only screen and (max-width: 1000px){
+  .section{
+    height: auto;
+  }
+  .reason-section{
+    height:auto;
+  }
+  .container1{
+    width: 850px;
+  }
+}
+@media only screen and (max-width: 991px){
+  .development_process_section .process_inner .process_image {
+        width: 85px;
+}
+.development_process_section .process_inner .arrow img {
+  width: 45px;
+}
+.development_process_section .process_inner .arrow {
+  right: -50px;
+}
+.client-section{
+  height: 470px;
+}
+}
+
+@media only screen and (max-width: 767px){
+  .development_process_section .process_inner {
+    margin-bottom: 5rem;
+  }
+.development_process_section .process_inner h4 {
+    font-size: 16px;
+    line-height: 0;
+}
+.development_process_section .process_inner .arrow img{
+  width: 35px;
+  vertical-align: middle;
+}
+.development_process_section .process_inner .arrow {
+  right: 0;
+  left: 0;
+  transform: rotate(90deg);
+  top: 135px;
+}
+.development_process_section .process_col {
+  margin-left: 0;
+}
+.client-section{
+  height: 550px;
+}
+}
+
+@media only screen and (max-width: 750px){
+  .row{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .container1{
+    max-width: 750px;
+  }
+  .reason-heading{
+    margin: 20px 0px;
+    padding: 10px 80px;
+}
+.client-heading {
+  font-size: 40px;
+  line-height: 60px;
+}
+.formfield input, textarea, select, option {
+  width: 500px;
+}
+}
+
+ 
+    
+@media only screen and (max-width: 950px){
+   .about-heading{
+      margin: 12px 0px;
+      padding: 0px 70px;
+   }
+   .about-para{
+      margin: 0px 30px;
+      padding: 0px 100px;
+   }
+}
+@media only screen and (max-width: 640px){
+    .navbar{
+        height: 260px;  }
+     /*  flex-direction: column;   */
+    
+   .nav-list{
+    flex-direction: column;
+    align-items: center;
+   }
+   .nav-list li{
+    padding: 20px 20px;
+   }
+   .nav-list li a{
+    text-align: center;
+   }
+
+   .logo{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    right:20px;
+    display: block;
+  }
+  .h-nav-resp{
+    height: 90px;   
+  }
+ .v-class-resp{
+    visibility: hidden;
+ }
+ .burger{
+    display: block;
+ }
+ .get-section {
+  height: 300px;
+ }
+ .get-section p{
+     margin: 0px 70px;
+    padding: 0px 45px;
+ }
+ .client-heading{
+  margin: 0px 70px;
+ }
+ .client-section{
+  height: 700px;
+}
+}
+@media only screen and (max-width: 550px){
+  .box-main{
+    height: 90%;
+  }
+  .heading-bg{
+    font-size: 37px;
+  }
+  .get-section {
+    height: 350px;
+   }
+   
+  .feedback p {
+    line-height: 35px;
+    text-align: center;
+    color: #233B6F;
+    margin: 5px 0px;
+    padding: 0px 0px
+}
+.form-p {
+  font-size: 17px;
+  line-height: 40px;
+}
+.formfield input, textarea, select, option {
+  width: 350px;
+}
+}
+    @media only screen and (max-width: 450px){
+        .heading-bg{
+            font-size: 30px;
+          }
+          .text-small{
+            font-size: 10px;
+          }
+          .about-heading{
+            margin: 10px 0px;
+            padding: 0px 20px;
+         }
+         .about-para{
+            margin: 0px 15px;
+            padding: 0px 20px;
+         }
+         .get-section button {
+         
+          padding: 2px 12px;
+         }  
+         .get-section h5{
+          margin: 30px 70px;
+         }
+         .get-section p {
+          margin: 0px 60px;
+          padding: 0px 25px;
+         }
+    }
+    @media only screen and (max-width: 410px){
+      .formfield input, textarea, select, option {
+           width: 300px;
+        }
+        .contact-section {
+          height: 840px;
+    }
+  }
+    @media only screen and (max-width: 350px){
+        .heading-bg{
+            font-size: 23px;
+          }
+          .text-small{
+            font-size: 9px;
+          }
+          .get-section {
+            height: 350px;
+           }
+           
+           .client-section{
+            height: 840px;
+          }
+          .formfield input, textarea, select, option {
+            width: 225px;
+         }
+         .contact-section {
+          height: 900px;
+         }
+        }
