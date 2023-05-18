@@ -213,10 +213,14 @@
           .about-heading{
             margin: 10px 0px;
             padding: 0px 20px;
+            font-size: 35px;
          }
          .about-para{
             margin: 0px 15px;
             padding: 0px 20px;
+         }
+       .reason-heading{
+           font-size: 35px;
          }
          .get-section button {
          
@@ -224,10 +228,14 @@
          }  
          .get-section h5{
           margin: 30px 70px;
+           font-size: 35px;
          }
          .get-section p {
           margin: 0px 60px;
           padding: 0px 25px;
+         }
+      .client-heading {
+          font-size: 35px;
          }
     }
     @media only screen and (max-width: 410px){
