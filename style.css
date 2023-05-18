@@ -6,7 +6,9 @@
 html {
     scroll-behavior: smooth;
 }
-
+.global-section{
+    padding: 50px 0px;
+}
 
 .logo {
     display: flex;
@@ -133,7 +135,7 @@ html {
 }
 .about-heading{
     font-family: 'Inter' !important;
-    font-size: 45px !important;
+    font-size: 45px;
     font-weight: 400;
     line-height: 75px !important;
     color: #233B6F !important;
